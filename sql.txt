@@ -1,0 +1,9 @@
+CREATE DATABASE `dbspeedtest` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE TABLE `archive` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tcpval` text NOT NULL,
+  `udpval` text NOT NULL,
+  `dteval` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4;
